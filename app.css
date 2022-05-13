@@ -6,6 +6,7 @@
 
 /* font-family: 'Barlow Condensed', sans-serif; */
 /* font-family: 'Bellefair', serif; */
+/* font-family: 'Barlow', sans-serif; */
 
 :root{
     --primary-color: #0b0d17;
@@ -53,6 +54,7 @@
 .hero-container {
     text-align: center;
     padding: 0 2rem 1rem 2rem;
+    margin-top: -68px;
 }
 
 
@@ -72,14 +74,15 @@
     color: var(--white-color);
     line-height: 100px;
     font-weight: 400;
-    
+    margin-top: 16px;
 }
 
 .body-text{
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow', sans-serif;
     color: var(--secondary-color);
     font-size: 0.938rem;
     line-height: 25px;
     font-weight: 400;
     text-align: center;
+    margin-top: 16px;
 }
