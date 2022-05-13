@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Barlow Condensed', sans-serif; */
+/* font-family: 'Bellefair', serif; */
+
+:root{
+    --primary-color: #0b0d17;
+    --secondary-color: #d0d6f9;
+    --white-color: #ffffff;
+
+}
+
+
+
+.hero {
+    background-image: url('./assets/home/background-home-tablet.jpg');
+    background-position-y: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    margin-top: -6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar{
+    display: flex;
+    height: 6rem;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-center{
+    width: 85vw;
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-toggle{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-container {
+    text-align: center;
+    padding: 0 2rem 1rem 2rem;
+}
+
+
+
+.heading-5{
+    font-size: 1rem;
+    color: var(--secondary-color);
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    font-weight: 400;
+}
+
+.heading-1{
+    font-family: 'Bellefair', serif;
+    font-size: 5rem;
+    color: var(--white-color);
+    line-height: 100px;
+    font-weight: 400;
+    
+}
+
+.body-text{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--secondary-color);
+    font-size: 0.938rem;
+    line-height: 25px;
+    font-weight: 400;
+    text-align: center;
+}
