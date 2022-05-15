@@ -19,6 +19,15 @@ html, body {
     height: 100%;
 }
 
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+
+}
+
 
 .hero {
     background-image: url('./assets/home/background-home-tablet.jpg');
@@ -118,6 +127,53 @@ html, body {
         box-shadow: 0 0 0  rgba(0,206,209,0);
     } 
 }
+
+.aside-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background:transparent;
+    backdrop-filter: blur(40px);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    row-gap: 1rem;
+}
+
+.aside-header{
+    display: flex;
+    justify-content: end;
+    padding: 1rem 1.5rem;
+}
+
+.aside-header button{
+    height: 40px;
+    background: transparent;
+    border: none;
+
+}
+
+.aside-links a{
+    display: block;
+    font-size: 1.2rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: var(--white-color);
+    font-weight: 100;
+    padding: 1.5rem 2.5rem;
+
+}
+
+.aside-links a:hover{
+    border-right: 4px solid white; 
+}
+
+.aside-links a span{
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+
 
 @media (min-width: 768px) {
     .hero {
