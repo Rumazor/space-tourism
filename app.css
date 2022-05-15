@@ -139,6 +139,12 @@ a{
     display: grid;
     grid-template-rows: auto 1fr auto;
     row-gap: 1rem;
+    transform: translateX(100%);
+    transition: all .6s ease-in;
+}
+
+.show-aside{
+    transform: translateX(0);
 }
 
 .aside-header{
@@ -148,9 +154,13 @@ a{
 }
 
 .aside-header button{
-    height: 40px;
+    padding: .5rem;
     background: transparent;
     border: none;
+    cursor: pointer;
+}
+
+.aside-header button:hover{
 
 }
 
