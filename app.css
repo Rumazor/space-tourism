@@ -141,7 +141,7 @@ a{
     grid-template-rows: auto 1fr auto;
     row-gap: 2rem;
     transform: translateX(100%);
-    transition: all .6s ease-in;
+    transition: all .3s ease-in-out;
 }
 
 .show-aside{
@@ -275,6 +275,10 @@ a{
     box-shadow: -3px -45px 0px -42px rgba(255,255,255,1) inset;
 }
 
+.active{
+    box-shadow: -3px -45px 0px -42px rgba(255,255,255,1) inset;
+}
+
 
 .line-divide{
     width: 80%;
@@ -292,6 +296,9 @@ a{
 }
 
 
+.info{
+    margin-top: 5px;
+}
 
 .info span {
     font-family: 'Barlow Condensed', sans-serif;
@@ -310,6 +317,7 @@ a{
     line-height: 32px;
     font-weight: 400x;
     color: var(--white-color);
+    padding-top: 5px;
 }
 
 @media (min-width: 768px) {

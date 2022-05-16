@@ -55,18 +55,22 @@
                 <p>PICK YOUR DESTINATION</p>
             </div>
             <section class="planets">
-                <img class="planet-img" src="./assets/destination/image-moon.webp" alt="">
+                <div id="image">
+                    <img class="planet-img" src="./assets/destination/image-moon.webp" alt="">
+                </div>
             </section>
             <section class="planet-info">
                 <div class="planets-btns">
-                    <button class="btn-planet">MOON</button>
-                    <button class="btn-planet">MOON</button>
-                    <button class="btn-planet">MOON</button>
-                    <button class="btn-planet">MOON</button>
+                    <button class="btn-planet active" >Moon</button>
+                    <button class="btn-planet">Mars</button>
+                    <button class="btn-planet" >Europa</button>
+                    <button class="btn-planet" >Titan</button>
                 </div>
-            <div class="planet-name">MOON</div>
+                    <div class="planet-name">
+                        <p id="name">MOON</p>
+                    </div>
                 <div class="planet-desc">
-                    <p>See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                    <p id="description">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
                 </div>
                 <div class="line-divide">
                     <hr>
@@ -74,17 +78,18 @@
                 <div class="distance-travel-info">
                     <div class="info">
                         <span>AVG. DISTANCE</span>
-                        <p>384,400 km</p>
+                        <p id="distance">384,400 km</p>
                     </div>
                     <div class="info">
                     <span>Est. travel time</span>
-                    <p>3 days</p>
+                    <p id="travel">3 days</p>
                     </div>
                 </div>
             </section>
         </section>
 
-    <script src="./app.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/destination.js"></script>
 </body>
 
 </html>
