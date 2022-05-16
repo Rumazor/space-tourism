@@ -1,3 +1,5 @@
+// === MENU ===
+
 const navToggle = document.querySelector(".nav-toggle");
 const closeAsideBtn = document.querySelector("#close-aside");
 const asideMenu = document.querySelector(".aside-menu");
