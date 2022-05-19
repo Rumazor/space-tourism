@@ -215,6 +215,7 @@ a{
     letter-spacing: 2.7px;
     color: #fff;
     opacity: 0.25;
+    padding-right: 12px;
 }
 
 .planet-info, .crew-info{
@@ -230,8 +231,9 @@ a{
     letter-spacing: 2.7px;
     color: #fff;
     font-weight: 400;
-    padding-left: 12px;
 }
+
+
 
 .planet-img{
     width: 200px;
@@ -251,9 +253,9 @@ a{
 .planets-btns .btn-planet{
     border: none;
     background: none;
-    color: var(--white-color);
+    color: var(--secondary-color);
     font-family: 'Barlow Condensed', sans-serif;
-    font-size: 1.2rem;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 17px;
@@ -273,8 +275,14 @@ a{
     font-style: normal;
 }
 
+.planet-desc {
+    width: 320px;
+    min-height: 125px;
+
+}
+
 .planet-info .planet-desc{
-    font-size: 1rem;
+    font-size: 15px;
     font-weight: 400;
     line-height: 25px;
     font-family: 'Barlow', sans-serif;
@@ -287,6 +295,8 @@ a{
 
 .planets-btns .btn-planet:hover{
     box-shadow: -3px -45px 0px -42px rgba(255,255,255,1) inset;
+    font-size: 1rem;
+    color: var(--white-color);
 }
 
 .active{
