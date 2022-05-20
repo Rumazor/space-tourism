@@ -42,18 +42,16 @@ a{
 }
 
 .navbar{
-    display: flex;
-    background: transparent;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    padding: 0rem 1.5rem;
 }
 
 .nav-center{
-    width: 85vw;
     max-width: 1170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nav-toggle{
@@ -188,8 +186,7 @@ a{
     background-repeat: no-repeat;
     display: grid;
     place-items: center;
-    gap:1rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
 .meet-crew {
@@ -242,6 +239,7 @@ a{
 
 
 
+
 .planets-btns{
     display: flex;
     justify-content: space-evenly;
@@ -273,6 +271,7 @@ a{
     text-align: center;
     color: var(--white-color);
     font-style: normal;
+    text-transform: uppercase;
 }
 
 .planet-desc {
@@ -301,6 +300,7 @@ a{
 
 .active{
     box-shadow: -3px -45px 0px -42px rgba(255,255,255,1) inset;
+     transform: scale(1.1);
 }
 
 
@@ -354,8 +354,8 @@ a{
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    gap: 1.5rem;
-    padding: 2rem 1rem
+    gap: 1.2rem;
+    padding: 1.5rem 0rem;
 }
 
 
@@ -434,6 +434,17 @@ a{
     line-height: 25px;
     font-weight: 400;
     text-align: center;
+}
+
+/* ================= TECHNOLOGY  SECTION ========================== */
+.main-technology{
+    background-image: url('./assets/technology/background-technology-tablet.jpg');
+    background-position-y: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 1.2rem;
+    padding: 1.5rem 0rem;
 }
 
 @media (min-width: 768px) {
